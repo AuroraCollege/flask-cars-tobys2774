@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>
+            Cars
+        </title>
+    </head>
+    <body>
+        <h1>Cars</h1>
+        {% for car in cars %}
+        <ul>
+            {{ car.model_name }} {{ car.model_base_price }}
+        </ul>
+        {% endfor %}
+    </body>
+
+</html>
